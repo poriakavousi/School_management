@@ -39,7 +39,7 @@ public class LoginFrame extends JFrame {
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
 
-        JLabel titleLabel = new JLabel("   پوریا کاوسی ، سرور آنبسته زادگان", JLabel.CENTER);
+        JLabel titleLabel = new JLabel("  school management", JLabel.CENTER);
         titleLabel.setFont(new Font("Tahoma", Font.BOLD, 16));
         mainPanel.add(titleLabel);
         mainPanel.add(Box.createVerticalStrut(20));
